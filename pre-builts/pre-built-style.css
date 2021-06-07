@@ -1,0 +1,193 @@
+.active{
+    color: rgb(196, 24, 24) !important;
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 4px 10px !important;
+  background-color: black !important;
+}
+.active:hover{
+    color: white !important;
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: rgb(196, 24, 24) !important;
+  transition: 0.3s !important;
+}
+.allmain{
+  position: absolute;
+  top: 345px;
+  width: 100%;
+}
+.prehead{
+  position: relative;
+  bottom: 100px;
+  text-align: center;
+}
+.prehead li img{
+  height: 60px;
+}
+.prehead li{
+  font-size: 40px;
+  color: white;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  margin: 10px
+}
+.listed{
+  position: relative;
+  bottom: 70px;
+  text-align: center;
+}
+.listed p{
+  font-size: 20px;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.btnlinks{
+  position: relative;
+  text-align: center;
+  bottom: 50px;
+}
+.btnlinks a{
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(196, 24, 24);
+  padding: 10px 40px;
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+.btnlinks a:hover{
+  background-color: rgb(26, 25, 25);
+  color:   rgb(196, 24, 24);
+  text-decoration: none;
+  transition: 0.2s;
+}
+.btnhr{
+  width: 80%;
+  position: relative;
+  color:  rgb(196, 24, 24);
+  z-index: 1;
+  height: 2px;
+  bottom: 25px;
+  background-color: rgb(196, 24, 24);
+}
+.checkp{
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+.checkp p{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(167, 163, 163);
+}
+.prepro{
+  position: relative;
+  top: 25px;
+  width: 100%;
+  text-align: center;
+}
+.prepro a:hover{
+  text-decoration: none;
+}
+.intelside{
+  width:50%;
+  float: left;
+  text-align:center;
+}
+.card{
+  display: inline-block;
+}
+.amdside{
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+.product{
+  position: relative;
+  width: 275px;
+  height: 340px;
+  background-color: rgb(15, 15, 15);
+  display: inline-block;
+  margin: 2.5px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+.product:hover{
+  background-color: rgb(8, 8, 8);
+  transition: 0.3s;
+  border: 1px solid rgb(150, 148, 148);
+}
+.platform{
+  font-size: 25px;
+  color: white;
+  margin: 30px;
+  font-family: 'Kanit', sans-serif;
+}
+.product img{
+  margin-top: 10px;
+  width: 260px;
+  height: 190px;
+}
+.probody {
+  background-color: transparent;
+  position: absolute;
+  margin: 15px;
+}
+.probody h1{
+  background-color: transparent;
+  color: rgb(196, 24, 24);
+  font-size: 25px;
+  font-weight: normal;
+  font-family: 'Play', sans-serif;
+}
+.probody p{
+  background-color: transparent;
+  text-align: left;
+  color: rgb(182, 179, 179);
+  font-size: 14px;
+  font-family: 'Mitr', sans-serif;
+}
+.probody h3{
+  background-color: transparent;
+  color: white;
+  text-align: left;
+  font-weight: normal;
+  font-family: 'Mukta', sans-serif;
+  font-weight: normal;
+}
+.toptag{
+  background-color: transparent;
+  position: absolute;
+  height: 30px !important;
+  width: 45px!important;
+  margin: 10px;
+}
+.toptag2{
+  background-color: transparent;
+  position: absolute;
+  height: 35px !important;
+  width: 50px!important;
+  margin: 10px;
+}
+.ontheway{
+  position: absolute;
+  height: 10px !important;
+  top: 1550px;
+  text-align: center;
+  width: 100%;
+}
+.ontheway p{
+  font-size: 25px;
+  color: rgb(167, 161, 161);
+  text-align: center;
+}
+.footer{
+  position: absolute;
+  top: 1300px;
+}

@@ -1,0 +1,552 @@
+*{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+
+  
+ 
+
+.tag{
+    height: 50px;
+    background-color: rgb(196, 24, 24);
+    position: absolute;
+    top: 240px;
+    width: 55%;
+    left: 22.5%;
+    border-radius: 10px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    
+}
+.tag h1{
+    background-color: transparent;
+    position: relative;
+    font-size: 25px;
+    font-family:'Kanit', sans-serif;
+    bottom: 25%;
+    text-align: center;
+    align-items: center;
+}
+
+.allmain{
+    position: absolute;
+    top: 225px;
+    background-color: transparent;
+}
+.thetag{
+    margin-left: 4%;
+    position: relative;
+    top: 170px;
+}
+.thetag p{
+    color:  rgb(196, 24, 24);;
+    font-family: 'Gudea', sans-serif;
+    font-size: 35px;
+    line-height: 55px;
+}
+.thetag img{
+    width: 92%;
+    height: 450px;
+}
+.caroex{
+    position: absolute;
+    top: 610px;
+    width: 92%;
+    left: 4%;
+    color: rgb(196, 24, 24);
+    height: 1px;
+    background-color: rgb(196, 24, 24);
+}
+.text1{
+    position: relative;
+    top: 230px;
+    margin-left: 4%;
+}
+.p1{
+    font-size: 40px;
+    color: white;
+    font-weight: normal;
+    font-family:'Poppins', sans-serif;
+}
+.p2{
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.whathr{
+    position: relative;
+    width: 70%;
+    top: 290px;
+    height: 1px;
+    color:rgb(196, 24, 24);
+    background-color: rgb(196, 24, 24);
+}
+.what{
+    position: relative;
+    top: 340px;
+    text-align: center;
+}
+.what p{
+    color: white;
+    font-size: 40px;
+    font-family:'Poppins', sans-serif;
+}
+.choice{
+    position: relative;
+    top: 380px;
+    text-align: center;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.choice ul{
+    display: block;
+    background-color: transparent;
+}
+.choice ul li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    border: 3px solid rgb(19, 18, 18);
+    background-color: rgb(19, 18, 18);
+    padding: 30px;
+}
+.choice ul li:hover{
+    background-color: rgb(15, 15, 15);
+    border: 3px solid rgb(44, 43, 43);
+    transition: 0.2s;
+}
+.choice ul li a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.choice ul li a p{
+    position: relative;
+    top: 20px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    list-style-type: none;
+    background-color: transparent;
+}
+
+.choice ul li a img{
+    height: 180px;
+    background-color: transparent;
+}
+.choice ul li a img:hover{
+    background-color: transparent;
+}
+
+
+.rxline{
+    position: relative;
+    top: 450px;
+    width: 90%;
+    left: 4%;
+}
+.rxline p{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18.5px;
+    line-height: 35px;
+    text-align: justify;
+}
+.poster1{
+    position: relative;
+    top: 330px;
+    width: 100%;
+    text-align: center;
+}
+.poster1 img{
+    width: 600px;
+    height: auto;
+    text-align: center;
+}
+
+
+
+
+
+.carousel.slide{
+    height: 500px;
+    top: 50px;
+    margin-top: 0px;
+}
+.carousel-inner{
+    background-color: black;
+    width: 90%;
+    height: 500px;
+    margin-bottom: 0px;
+}
+.imgsz{
+    height: 500px !important;
+}
+.glyphicon.glyphicon-chevron-left{
+    background-color: transparent !important;
+}
+.glyphicon.glyphicon-chevron-right{
+    background-color: transparent !important;
+}
+.carousel-inner img{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    background-color: black;
+    margin-bottom: 0px;
+}
+.item.active{
+    background-color: black;
+    
+    margin-bottom: 0px;
+}
+.item.active img{
+    width: 90%;
+}
+.carousel-indicators{
+    background-color: transparent;
+}
+
+.thepre{
+    position: relative;
+    top: 500px;
+    width: 15%;
+    height: 2px;
+    color: rgb(43, 44, 44);
+    background-color: rgb(43, 44, 44);
+}
+.prepara{
+    position: relative;
+    width: 100%;
+    top: 525px;
+    text-align: center;
+}
+.prepara li{
+    display: inline-block;
+}
+.prepara p{
+    color: rgb(112, 108, 108);
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size: 32px;
+    margin: 10px;
+}
+.prepara ul li h1{
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: 'Gudea', sans-serif;
+}
+.pretextline{
+    position: relative;
+    top: 560px;
+    width: 90%;
+    left: 5%;
+    z-index: 1;
+}
+.pretextline p{
+    color: white;
+    font-size: 18.5px;
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 35px;
+    z-index: 1;
+}
+.redx{
+    color:  rgb(196, 24, 24) !important;
+    position: relative;
+}
+.rigboom{
+    display: inline-block !important;
+}
+.cardiv{
+    position: relative;
+    top: 550px;
+    text-align: center;
+}
+.cardiv ul{
+    display: inline-block;
+}
+.cardiv ul li{
+    display: inline-block;
+    margin: 30px;
+    
+}
+.card{
+    height: 290px;
+    width: 250px;
+    background-color: rgb(27, 26, 26) !important;
+  
+}
+.card-body{
+    background-color:rgb(27, 26, 26) !important;
+    text-align: left;
+}
+.card-img-top{
+    height: 125px;
+}
+.card-title{
+    text-align: left;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+}
+.card-text{
+    text-align: left;
+    color: rgb(128, 122, 122);
+    font-size: 12.5px;
+    background-color: transparent;
+}
+.showbtn{
+    font-size: 17.5px;
+    background-color:  rgb(196, 24, 24);
+    border-radius: 2.5px;
+    color: white;
+    font-family: 'Gudea', sans-serif;
+    padding: 3px 10px;
+    text-align: left !important;
+}
+.showbtn:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.showall{
+    text-align: center;
+    position: relative;
+    top: 930px;
+    background-color: transparent;
+    z-index: 1;
+}
+.showall a{
+    position: relative;
+    top: 35px;
+    text-align: center;
+    font-size: 17.5px;
+    background-color: rgb(196, 24, 24);
+    border-radius: 2.5px;
+    color:white;
+    font-family: 'Gudea', sans-serif;
+    padding: 3px 10px;
+
+}
+.showall a:hover{
+    color: white;
+    background-color: rgb(46, 44, 44);
+    text-decoration: none;
+    transition: 0.2s;
+}
+.customth{
+    position: relative;
+    top: 680px;
+    text-align: center;
+}
+.customth p{
+    font-size: 40px;
+    color: white;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    text-align: center;
+    font-family: 'Gudea', sans-serif;
+}
+.thecus{
+    position: relative;
+    top: 650px;
+    width: 15%;
+    height: 2px;
+    color: rgb(43, 44, 44);
+    background-color: rgb(43, 44, 44);
+    z-index: 1;
+}
+.custext{
+    position: relative;
+    top: 30px;
+}
+
+.custext p{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18.5px;
+    line-height: 35px;
+    text-align: justify;
+}
+.showallc{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    background-color: transparent;
+    z-index: 1;
+}
+.showallc a{
+    position: relative;
+    top: 35px;
+    text-align: center;
+    font-size: 17.5px;
+    background-color: rgb(196, 24, 24);
+    border-radius: 2.5px;
+    color: white;
+    font-family: 'Gudea', sans-serif;
+    padding: 3px 10px;
+
+}
+.showallc a:hover{
+    color: white;
+    background-color: rgb(46, 44, 44);
+    text-decoration: none;
+    transition: 0.2s;
+}
+.lasttext{
+    position: relative;
+    top: 160px;
+}
+.lasttext p{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18.5px;
+    line-height: 35px;
+    text-align: justify;
+}
+.sochr{
+    position: relative;
+    top: 115px;
+    width: 15%;
+    height: 2px;
+    color: rgb(43, 44, 44);
+    background-color: rgb(43, 44, 44);
+}
+.logtex{
+    position: relative;
+    top: 900px;
+    text-align: center;
+}
+.logtex ul{
+    text-decoration: none;
+    display: inline-block;
+}
+.logtex ul li{
+ text-decoration: none;
+ display: inline-block;
+ font-size: 70px;
+ color: white;
+}
+.logtex ul li p{
+ margin-left: 15px;
+ font-size: 30px;
+ position: relative;
+ bottom: 5px;
+ color: rgb(196, 24, 24);
+ font-family: 'Gudea', sans-serif;
+}
+.logtex img{
+    height: 110px;
+}
+.footer{
+    position: relative;
+    top: 950px;
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 220px;
+    text-align: center;
+}
+.footer ul{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    background-color: transparent;
+}
+.footer ul li{
+    display: block;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+}
+.footer ul li img{
+    height: 70px;
+    background-color: transparent;
+}
+.footer ul li p{
+    position: relative;
+    top: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(196, 24, 24);
+    font-family: 'Gudea', sans-serif;
+    margin: 5px;
+}
+.fstfoot{
+    position: relative;
+    bottom: 20px;
+}
+.foonav{
+    font-size: 15px;
+    color: rgb(117, 115, 115);
+    margin-bottom: 10px !important;
+}
+.foonav:hover{
+    text-decoration: none;
+    color: rgb(185, 190, 190);
+}
+.navli{
+    padding-bottom: 5px;
+}
+.navul{
+    position: relative;
+    bottom: 10px;
+    
+}
+.stay{
+    color: rgb(117, 115, 115) !important;
+    position: relative;
+    left: 5px;
+}
+
+.socinav{
+    position: relative;
+    bottom: 5px;
+}
+.staynav{
+    position: relative;
+    top: 10px;
+    color:  rgb(117, 115, 115) !important;
+    font-size: 15px;
+}
+.staynav:hover{
+    text-decoration: none;
+    color: rgb(231, 238, 238) !important;
+}
+.staynav i{
+    background-color: transparent;
+    color: rgb(117, 115, 115);
+    margin: 11px;
+    font-size: 20px;
+}
+.staynav i:hover{
+    text-decoration: none;
+    color: rgb(231, 238, 238);
+}
+.copyline{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    top: 30px !important;
+}
+.copyline p{
+    background-color: transparent;
+    position: relative;
+    font-size: 17px;
+    color: rgb(117, 115, 115);
+    top: 10px;
+}
+.copyline p i{
+    background-color: transparent;
+}

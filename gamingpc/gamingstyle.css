@@ -1,0 +1,129 @@
+.active{
+    color: rgb(196, 24, 24) !important;
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 4px 10px !important;
+  background-color: black !important;
+}
+.active:hover{
+    color: white !important;
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: rgb(196, 24, 24) !important;
+  transition: 0.3s !important;
+}
+.allmain{
+    position: absolute;
+    width: 100%;
+    top: 225px;
+}
+.tagtop{
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+.tagtop img{
+    height: 60px;
+}
+.tagtop li{
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    margin: 10px;
+}
+.highfps{
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+.highfps p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.prepro{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+  }
+  .prepro a:hover{
+    text-decoration: none;
+  }
+  .product{
+    position: relative;
+    width: 275px;
+    height: 340px;
+    background-color: rgb(15, 15, 15);
+    display: inline-block;
+    margin: 2.5px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+  }
+  .product:hover{
+    background-color: rgb(8, 8, 8);
+    transition: 0.3s;
+    border: 1px solid rgb(150, 148, 148);
+  }
+  .platform{
+    font-size: 25px;
+    color: white;
+    margin: 30px;
+    font-family: 'Kanit', sans-serif;
+  }
+  .product img{
+    margin-top: 10px;
+  width: 260px;
+  height: 190px;
+  }
+  .probody {
+    background-color: transparent;
+    position: absolute;
+    margin: 15px;
+  }
+  .probody h1{
+    background-color: transparent;
+    color: rgb(196, 24, 24);
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Play', sans-serif;
+  }
+  .probody p{
+    background-color: transparent;
+    text-align: left;
+    color: rgb(182, 179, 179);
+    font-size: 14px;
+    font-family: 'Mitr', sans-serif;
+  }
+  .probody h3{
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-weight: normal;
+    font-family: 'Mukta', sans-serif;
+    font-weight: normal;
+  }
+  .toptag{
+    background-color: transparent;
+    position: absolute;
+    height: 30px !important;
+    width: 45px!important;
+    margin: 10px;
+  }
+.more{
+    position: relative;
+    text-align: center;
+    top: 100px;
+}
+.more p{
+    font-size: 25px;
+    color: rgb(167, 161, 161);
+    text-align: center;
+}
+.footer{
+    top: 140px;
+}

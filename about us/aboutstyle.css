@@ -1,0 +1,154 @@
+.allmain{
+    position: absolute;
+    top: 225px;
+}
+.que{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.que p{
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutpara{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    width: 80%;
+    left: 10%;
+}
+.aboutpara p{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.aboutpara  ul{
+    margin: 20px;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: georgian;
+}
+.aboutpara  ul li{
+    text-align: left;
+    text-decoration: none;
+    list-style-type: decimal;
+    font-size: 20px;
+    color:rgb(196, 24, 24) !important;
+}
+.aboutpara  ul li a{
+    color: rgb(196, 24, 24) !important;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+}
+.abp a{
+    color: rgb(196, 24, 24) !important;
+    text-decoration: none !important;
+    font-family: 'Karla', sans-serif;
+}
+.footer{
+    position: relative;
+    top: 150px;
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 220px;
+    text-align: center;
+}
+.footer ul{
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    background-color: transparent;
+}
+.footer ul li{
+    display: block;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+}
+.footer ul li img{
+    height: 60px;
+    background-color: transparent;
+}
+.footer ul li p{
+    position: relative;
+    top: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(196, 24, 24);
+    font-family: 'Gudea', sans-serif;
+    margin: 5px;
+}
+.fstfoot{
+    position: relative;
+    bottom: 20px;
+}
+.foonav{
+    font-size: 15px;
+    color: rgb(117, 115, 115);
+    margin-bottom: 10px !important;
+}
+.foonav:hover{
+    text-decoration: none;
+    color: rgb(185, 190, 190);
+}
+.navli{
+    padding-bottom: 5px;
+}
+.navul{
+    position: relative;
+    bottom: 10px;
+    
+}
+.stay{
+    color: rgb(117, 115, 115) !important;
+    position: relative;
+    left: 5px;
+}
+
+.socinav{
+    position: relative;
+    bottom: 5px;
+}
+.staynav{
+    position: relative;
+    top: 10px;
+    color:  rgb(117, 115, 115) !important;
+    font-size: 15px;
+}
+.staynav:hover{
+    text-decoration: none;
+    color: rgb(231, 238, 238) !important;
+}
+.staynav i{
+    background-color: transparent;
+    color: rgb(117, 115, 115);
+    margin: 11px;
+    font-size: 20px;
+}
+.staynav i:hover{
+    text-decoration: none;
+    color: rgb(231, 238, 238);
+}
+.copyline{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    top: 30px !important;
+}
+.copyline p{
+    background-color: transparent;
+    position: relative;
+    font-size: 17px;
+    color: rgb(117, 115, 115);
+    top: 10px;
+}
+.copyline p i{
+    background-color: transparent;
+}

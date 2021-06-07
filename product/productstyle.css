@@ -1,0 +1,976 @@
+body{
+    height: 200vh;
+    background-color: black !important;
+}
+.active{
+    color: rgb(196, 24, 24) !important;
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 4px 10px !important;
+  background-color: black !important;
+}
+.active:hover{
+    color: white !important;
+  text-decoration: none !important;
+  font-size: 17px !important;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: rgb(196, 24, 24) !important;
+  transition: 0.3s !important;
+}
+.allmain{
+    position: absolute;
+    top: 225px;
+    width: 100%;
+}
+.headpro{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.headpro h1{
+    font-size: 40px;
+    color:rgb(179, 25, 25);
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.headpro p{
+    color: rgb(182, 172, 172);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin-left: 15px;
+}
+.headboom{
+    position: relative;
+    top: 80px;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+}
+.headboom li{
+    display: inline-block;
+    background-color: rgb(10, 10, 10);
+    height: 400px;
+}
+.imgsec{
+    width: 35%;
+    box-shadow: 0px 0px 10px rgb(196, 24, 24);
+    z-index: 444;
+    border-radius: 5px;
+}
+.productimg{
+    position: absolute;
+    text-align: center;
+    width: 35%;
+    z-index: 666;
+    background-color: transparent;
+}
+.productimg img{
+    height: 300px;
+    background-color: transparent !important;
+    margin: 30px;
+}
+.proimgtitle{
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    text-align: center;
+    width: 35%;
+}
+.proimgtitle p{
+    background-color:transparent;
+    font-size: 20px;
+    color: white;
+    font-family:'Poppins', sans-serif;
+}
+.consec{
+    width: 64%;
+    background-color: rgb(0, 0, 0) !important;
+}
+.protitle{
+    position: absolute;
+    background-color: transparent;
+    text-align: left;
+    width: 64%;
+}
+.protitle p{
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 0px !important;
+    font-family: 'Sen', sans-serif;
+}
+.conhr1{
+    position: absolute;
+    width: 64%;
+    height: 2px;
+    color: rgb(196, 24, 24);
+    background-color: rgb(196, 24, 24);
+    margin: 20px;
+    top: 75px;
+}
+.by{
+    position: absolute;
+    background-color: transparent;
+    width: 64%;
+    text-align: left;
+    top: 100px;
+}
+.by p{
+    margin: 20px;
+    background-color: transparent;
+    font-size: 17px;
+    color: rgb(138, 131, 131);
+    font-family: 'Roboto', sans-serif;
+}
+.pricing{
+    position: absolute;
+    top: 140px;
+    background-color: transparent;
+    text-align: left;
+    height: 50px;
+}
+.pricing ul{
+    display: block;
+    height: 10px;
+    background-color: transparent;
+    margin: 20px;
+    z-index: 1;
+}
+.pricing ul li{
+    height: 50px;
+}
+.high{
+    font-size: 18px !important;
+    margin-left: 20px;
+    color: rgb(255, 255, 255) !important;
+}
+.high1{
+    font-size: 30px !important;
+    margin-left: 20px !important;
+    color: white !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.save{
+    position: absolute;
+    top: 85px;
+}
+.mainli{
+    font-size: 23px !important;
+    
+}
+.pricing ul li{
+    display: inline-block;
+    background-color: transparent;
+    font-size: 14px;
+    color: rgb(201, 192, 192);
+    font-family: 'Roboto', sans-serif;
+}
+.tax{
+    position: absolute;
+    top: 230px;
+    margin: 40px;
+    background-color: transparent;
+}
+.tax p{
+    font-size: 17px;
+    color: white;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+.delivery{
+    right: 0px;
+    text-align: right;
+    position: absolute;
+    top: 120px;
+    margin: 40px;
+    background-color: transparent;
+}
+.delivery p{
+    background-color: transparent;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(146, 139, 139);
+}
+.buy{
+    position: absolute;
+    top: 305px;
+    margin: 40px;
+}
+.buy a{
+    font-size: 25px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px;
+    text-decoration: none;
+    z-index: 222;
+    background-color:rgb(196, 24, 24);
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: 550;
+}
+.buy a:hover{
+    color: rgb(196, 24, 24);
+    background-color: rgb(20, 20, 20);
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 1px 1px 5px rgb(196, 24, 24);
+    transition: 0.2s;
+}
+.scroll{
+    position: absolute;
+    top: 310px;
+    background-color: transparent;
+    right: 0px;
+    margin: 40px;
+}
+.scroll p{
+    background-color: transparent;
+    font-size: 17.5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(196,24,24);
+}
+.donehead{
+    position: relative;
+    width: 90%;
+    height: 2px;
+    top: 130px;
+    color: rgb(196, 24, 24);
+    background-color: rgb(196, 24, 24);
+}
+.specif{
+    position: relative;
+    top: 155px;
+    font-size: 25px;
+    color: rgb(196, 24, 24);
+    font-family: 'Rubik', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 40px;
+}
+
+
+/*CPU Spec CSS*/
+
+
+.cpu{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    margin-bottom: 30px;
+    max-height: auto;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.cpu li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.cpu li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.cpu li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.cpu i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.detail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.detail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/*CPU Spec CSS Ends*/
+/*Mobo Spec CSS */
+
+
+.mobo{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.mobo li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.mobo li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.mobo li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.mobo i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.mobodetail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.mobodetail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*Mobo Spec CSS Ends*/
+
+/*CPU Cooler Spec CSS*/
+
+.cpucooler{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.cpucooler li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.cpucooler li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.cpucooler li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.cpucooler i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.cpucdetail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.cpucdetail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*CPU Cooler Spec CSS Ends*/
+
+/*GPU Spec CSS */
+
+.gpu{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.gpu li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.gpu li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.gpu li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.gpu i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.gpudetail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.gpudetail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*GPU Spec CSS Ends*/
+
+/*RAM Spec CSS */
+
+.ram{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.ram li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.ram li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.ram li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.ram i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.ramdetail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.ramdetail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*RAM Spec CSS Ends*/
+
+/*M.2 Spec CSS */
+
+.m2{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.m2 li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.m2 li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.m2 li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.m2 i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.m2detail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.m2detail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*M.2 Spec CSS Ends*/
+
+/*ssd Spec CSS */
+
+.ssd{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.ssd li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.ssd li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.ssd li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.ssd i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.ssddetail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.ssddetail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*ssd Spec CSS Ends*/
+
+
+/*psu Spec CSS */
+
+.psu{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.psu li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.psu li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.psu li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.psu i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.psudetail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.psudetail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*psu Spec CSS Ends*/
+
+
+/*case Spec CSS */
+
+.case{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.case li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.case li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.case li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.case i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.casedetail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.casedetail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*case Spec CSS Ends*/
+
+/*os Spec CSS */
+
+.os{
+    position: relative;
+    top: 155px;
+    width: 90%;
+    left: 5%;
+    min-height: 50px;
+    max-height: auto;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    background-color: rgb(20, 20, 20);
+    border: 1px solid rgb(119, 23, 23);
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0.1px 0.1px  15px rgb(179, 25, 25);
+}
+.os li{
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(196,24,24);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Noto Sans', sans-serif;
+    user-select: none;
+}
+.os li img{
+    height: 40px;
+    background-color: transparent;
+    margin: 10px;
+}
+.os li p{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal !important;
+ color: white !important;
+ margin-left: 10px;
+ 
+}
+.os i{
+    background-color: transparent;
+    position: sticky;
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+    margin-right: 40px;
+    color: rgb(196,24,24);
+    font-size: 18px;
+}
+.osdetail{
+    display: none;
+    background-color: transparent;
+    text-align: justify;
+}
+.osdetail p{
+    background-color: transparent;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+/*os Spec CSS Ends*/
+
+.des{
+    position: relative;
+    top: 160px;
+    margin-left: 5%;
+    margin-bottom: 40px;
+}
+.des p{
+ 
+    font-size: 25px;
+    color: rgb(196, 24, 24);
+    font-family: 'Rubik', sans-serif;
+  
+}
+.desp{
+    position: relative;
+    top: 120px;
+    margin: 5%;
+}
+.desp p{
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+  
+}
+.feed{
+    position: relative;
+    top: 80px;
+  text-align: center;
+  margin: 5%;
+}
+.feed p{
+ 
+    font-size: 20px;
+    color: rgb(196, 24, 24);
+    font-family: 'Poppins', sans-serif;
+}
+.alld{
+    position: relative;
+    width: 90%;
+    height: 2px;
+    top: 100px;
+    color: rgb(196, 24, 24);
+    background-color: rgb(196, 24, 24);
+}
+.footer{
+    top: 70px;
+}
